@@ -12,7 +12,7 @@ const CardSection = () => {
     contentCollection && (
       <>
         <div className="bg-black bg-opacity-95">
-          <div className="-mt-48 relative z-20">
+          <div className="-mt-32 relative z-20">
             <CardList
               title={languages[languageSelectValue].nowPlayingMoviesText}
               content={contentCollection?.nowPlayingMovies}
